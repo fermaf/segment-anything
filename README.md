@@ -29,7 +29,7 @@ or clone the repository locally and install with
 
 ```
 git clone git@github.com:facebookresearch/segment-anything.git
-cd segment-anything; pip install -e .
+pip install -e .
 ```
 
 The following optional dependencies are necessary for mask post-processing, saving masks in COCO format, the example notebooks, and exporting the model in ONNX format. `jupyter` is also required to run the example notebooks.
